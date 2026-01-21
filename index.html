@@ -25,23 +25,23 @@
   <div class="container">
     <nav>
       <div class="nav-content">
-        <a href="index.html" class="logo">
+        <a href="#home" class="logo">
           <svg viewBox="0 0 32 32"><path d="M16 0 L32 16 L16 32 L0 16 Z"/></svg>
           Mundial 2026
         </a>
         <ul class="nav-links">
-          <li class="navigation-link-item"><a href="index.html"><div class="navigation-link"><span>Home</span></div></a></li>
-          <li class="navigation-link-item"><a href="grupos.html"><div class="navigation-link"><span>Grupos</span></div></a></li>
-          <li class="navigation-link-item"><a href="calendario.html"><div class="navigation-link"><span>Calendario</span></div></a></li>
-          <li class="navigation-link-item"><a href="clasificaciones.html"><div class="navigation-link"><span>Clasificaciones</span></div></a></li>
-          <li class="navigation-link-item"><a href="goleadores.html"><div class="navigation-link"><span>Goleadores</span></div></a></li>
-          <li class="navigation-link-item"><a href="noticias.html"><div class="navigation-link"><span>Noticias</span></div></a></li>
+          <li class="navigation-link-item"><a href="#home"><div class="navigation-link"><span>Home</span></div></a></li>
+          <li class="navigation-link-item"><a href="#grupos"><div class="navigation-link"><span>Grupos</span></div></a></li>
+          <li class="navigation-link-item"><a href="#calendario"><div class="navigation-link"><span>Calendario</span></div></a></li>
+          <li class="navigation-link-item"><a href="#clasificaciones"><div class="navigation-link"><span>Clasificaciones</span></div></a></li>
+          <li class="navigation-link-item"><a href="#goleadores"><div class="navigation-link"><span>Goleadores</span></div></a></li>
+          <li class="navigation-link-item"><a href="#noticias"><div class="navigation-link"><span>Noticias</span></div></a></li>
         </ul>
         <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
       </div>
     </nav>
 
-    <section class="hero">
+    <section id="home" class="hero">
       <img src="https://images.pexels.com/photos/34201725/pexels-photo-34201725.jpeg" alt="Estadio del Mundial 2026" class="hero-bg">
       <div class="hero-overlay"></div>
       <div class="hero-content container fade-in">
@@ -54,7 +54,7 @@
           <div class="countdown-item"><span class="countdown-value" id="seconds">00</span><span class="countdown-label">Segundos</span></div>
         </div>
         <div class="hero-actions">
-          <a href="calendario.html" class="btn btn-primary">Ver Calendario</a>
+          <a href="#calendario" class="btn btn-primary">Ver Calendario</a>
           <a href="https://www.fifa.com" class="btn btn-outline" rel="noopener noreferrer" target="_blank">Comprar Entradas</a>
         </div>
       </div>
@@ -89,7 +89,7 @@
       </div>
     </section>
 
-    <section class="groups">
+    <section id="grupos" class="groups">
       <div class="container">
         <h2 class="section-title">Grupos del Mundial</h2>
         <p class="section-subtitle">El sorteo de diciembre 2025</p>
@@ -150,11 +150,68 @@
             <div class="team-item"><span class="flag">🇳🇴</span> Noruega</div>
             <div class="team-item"><span class="flag">🇨🇻</span> Cabo Verde</div>
           </div>
+          <div class="group-card">
+            <h3 class="group-name">Grupo I</h3>
+            <div class="team-item"><span class="flag">🇪🇸</span> España</div>
+            <div class="team-item"><span class="flag">🇺🇿</span> Uzbekistán</div>
+            <div class="team-item"><span class="flag">🇹🇭</span> Tailandia</div>
+            <div class="team-item"><span class="flag">🇬🇭</span> Ghana</div>
+          </div>
+          <div class="group-card">
+            <h3 class="group-name">Grupo J</h3>
+            <div class="team-item"><span class="flag">🇬🇧</span> Inglaterra</div>
+            <div class="team-item"><span class="flag">🇯🇴</span> Jordania</div>
+            <div class="team-item"><span class="flag">🇺🇿</span> Uzbekistán</div>
+            <div class="team-item"><span class="flag">🇳🇬</span> Nigeria</div>
+          </div>
+          <div class="group-card">
+            <h3 class="group-name">Grupo K</h3>
+            <div class="team-item"><span class="flag">🇵🇹</span> Portugal</div>
+            <div class="team-item"><span class="flag">🇺🇿</span> Uzbekistán</div>
+            <div class="team-item"><span class="flag">🇨🇳</span> China</div>
+            <div class="team-item"><span class="flag">🇭🇷</span> Croacia</div>
+          </div>
+          <div class="group-card">
+            <h3 class="group-name">Grupo L</h3>
+            <div class="team-item"><span class="flag">🇭🇷</span> Croacia</div>
+            <div class="team-item"><span class="flag">🇺🇿</span> Uzbekistán</div>
+            <div class="team-item"><span class="flag">🇰🇿</span> Kazajistán</div>
+            <div class="team-item"><span class="flag">🇨🇴</span> Colombia</div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="rankings">
+    <section id="calendario" class="calendar">
+      <div class="container">
+        <h2 class="section-title">Calendario de Partidos</h2>
+        <p class="section-subtitle">Fechas clave del torneo</p>
+        <div class="calendar-grid">
+          <div class="calendar-card">
+            <h3 class="calendar-date">11 Jun - Apertura</h3>
+            <p>México vs Sudáfrica</p>
+            <p class="calendar-venue">Estadio Azteca</p>
+          </div>
+          <div class="calendar-card">
+            <h3 class="calendar-date">12 Jun</h3>
+            <p>Canadá vs Playoff UEFA A</p>
+            <p class="calendar-venue">BMO Field</p>
+          </div>
+          <div class="calendar-card">
+            <h3 class="calendar-date">19 Jul - Final</h3>
+            <p>Por definir</p>
+            <p class="calendar-venue">MetLife Stadium</p>
+          </div>
+          <div class="calendar-card highlight">
+            <h3 class="calendar-date">Fase de grupos</h3>
+            <p>11-24 Jun</p>
+            <p class="calendar-venue">16 sedes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clasificaciones" class="rankings">
       <div class="container">
         <h2 class="section-title">Clasificaciones</h2>
         <p class="section-subtitle">Standings preliminares</p>
@@ -168,43 +225,46 @@
               <tr><td>2</td><td>Brasil</td><td>36</td><td class="qualified">Calificado</td></tr>
               <tr><td>3</td><td>Francia</td><td>35</td><td class="qualified">Calificado</td></tr>
               <tr><td>4</td><td>España</td><td>34</td><td class="qualified">Calificado</td></tr>
-              <!-- Más filas según necesidad -->
+              <tr><td>5</td><td>Alemania</td><td>33</td><td class="qualified">Calificado</td></tr>
+              <tr><td>6</td><td>Portugal</td><td>32</td><td class="qualified">Calificado</td></tr>
+              <tr><td>7</td><td>Inglaterra</td><td>31</td><td class="qualified">Calificado</td></tr>
+              <tr><td>8</td><td>Países Bajos</td><td>30</td><td class="qualified">Calificado</td></tr>
             </tbody>
           </table>
         </div>
       </div>
     </section>
 
-    <section class="calendar">
+    <section id="goleadores" class="top-scorers">
       <div class="container">
-        <h2 class="section-title">Calendario de Partidos</h2>
-        <p class="section-subtitle">Fechas clave del torneo</p>
-        <div class="calendar-grid">
-          <div class="calendar-card">
-            <h3 class="calendar-date">11 Jun 2026</h3>
-            <p>México vs Sudáfrica</p>
-            <p class="calendar-venue">Estadio Azteca, Ciudad de México</p>
+        <h2 class="section-title">Predicciones de Máximos Goleadores</h2>
+        <p class="section-subtitle">Candidatos al Golden Boot</p>
+        <div class="top-scorers-grid">
+          <div class="scorer-card">
+            <h3>Kylian Mbappé (Francia)</h3>
+            <p>Odds: +650</p>
           </div>
-          <div class="calendar-card">
-            <h3 class="calendar-date">12 Jun 2026</h3>
-            <p>Canadá vs Playoff UEFA A</p>
-            <p class="calendar-venue">BMO Field, Toronto</p>
+          <div class="scorer-card">
+            <h3>Harry Kane (Inglaterra)</h3>
+            <p>Odds: +700</p>
           </div>
-          <div class="calendar-card">
-            <h3 class="calendar-date">19 Jul 2026</h3>
-            <p>Final</p>
-            <p class="calendar-venue">MetLife Stadium, Nueva York / Nueva Jersey</p>
+          <div class="scorer-card">
+            <h3>Lionel Messi (Argentina)</h3>
+            <p>Odds: +1300</p>
           </div>
-          <div class="calendar-card highlight">
-            <h3 class="calendar-date">Fase de grupos</h3>
-            <p>11–24 Jun 2026</p>
-            <p class="calendar-venue">16 sedes</p>
+          <div class="scorer-card">
+            <h3>Erling Haaland (Noruega)</h3>
+            <p>Odds: +1400</p>
+          </div>
+          <div class="scorer-card">
+            <h3>Lamine Yamal (España)</h3>
+            <p>Odds: +1800</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="news">
+    <section id="noticias" class="news-grid">
       <div class="container">
         <h2 class="section-title">Noticias Actualizadas</h2>
         <p class="section-subtitle">Enero 2026</p>
@@ -212,25 +272,33 @@
           <article class="news-card">
             <div class="news-content">
               <time class="news-date" datetime="2026-01-15">15 Ene, 2026</time>
-              <h3 class="news-title">Francia rechaza boycott</h3>
-              <p class="news-text">A pesar de tensiones con Groenlandia, Francia confirma participación plena.</p>
+              <h3 class="news-title">Boycotts USA-Greenland</h3>
+              <p class="news-text">Francia rechaza boycott pese a amenazas.</p>
               <a href="https://fifa.com" class="btn-link">Leer más</a>
             </div>
           </article>
           <article class="news-card">
             <div class="news-content">
-              <time class="news-date" datetime="2026-01-18">18 Ene, 2026</time>
-              <h3 class="news-title">FIFA PASS para visas</h3>
-              <p class="news-text">Sistema de visas prioritarias para titulares de entradas oficiales.</p>
+              <time class="news-date" datetime="2026-01-20">20 Ene, 2026</time>
+              <h3 class="news-title">FIFA Series 2026</h3>
+              <p class="news-text">Anuncio de la serie preparatoria con 48 equipos.</p>
               <a href="https://fifa.com" class="btn-link">Más info</a>
             </div>
           </article>
           <article class="news-card">
             <div class="news-content">
-              <time class="news-date" datetime="2026-01-22">22 Ene, 2026</time>
-              <h3 class="news-title">Base camps en Kansas City</h3>
-              <p class="news-text">Argentina e Inglaterra eligen KC como centro de operaciones.</p>
+              <time class="news-date" datetime="2026-01-25">25 Ene, 2026</time>
+              <h3 class="news-title">Protocolo de Seguridad Cibernética</h3>
+              <p class="news-text">Expertos blindan el sistema de ticketing.</p>
               <a href="https://fifa.com" class="btn-link">Detalles</a>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-content">
+              <time class="news-date" datetime="2026-01-30">30 Ene, 2026</time>
+              <h3 class="news-title">Última Fase de Venta de Entradas</h3>
+              <p class="news-text">Se agotan paquetes para la final en MetLife.</p>
+              <a href="https://fifa.com" class="btn-link">Comprar</a>
             </div>
           </article>
         </div>
@@ -245,9 +313,11 @@
             <p>Portal independiente sobre el Mundial 2026</p>
           </div>
           <ul class="footer-links">
-            <li><a href="grupos.html">Grupos</a></li>
-            <li><a href="calendario.html">Calendario</a></li>
-            <li><a href="clasificaciones.html">Clasificaciones</a></li>
+            <li><a href="#grupos">Grupos</a></li>
+            <li><a href="#calendario">Calendario</a></li>
+            <li><a href="#clasificaciones">Clasificaciones</a></li>
+            <li><a href="#goleadores">Goleadores</a></li>
+            <li><a href="#noticias">Noticias</a></li>
           </ul>
         </div>
         <div class="footer-bottom">© 2026 Mundial 2026. Datos preliminares sujetos a cambios oficiales por la FIFA.</div>
@@ -276,6 +346,16 @@
       const toggle = document.querySelector('.mobile-toggle');
       const links = document.querySelector('.nav-links');
       if (toggle && links) toggle.addEventListener('click', () => links.classList.toggle('active'));
+
+      const nav = document.querySelector('nav');
+      window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 50));
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({behavior: 'smooth'});
+        });
+      });
     });
   </script>
 </body>
