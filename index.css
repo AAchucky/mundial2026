@@ -151,3 +151,43 @@
   font-weight: 500;
   line-height: 24px;
 }
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.calendar-card {
+  background: var(--card-bg, #111);
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,.2);
+}
+
+.calendar-card h3 {
+  margin-bottom: .5rem;
+}
+
+.calendar-date {
+  font-weight: 600;
+  opacity: .9;
+}
+
+.calendar-venue {
+  margin-top: .5rem;
+  font-size: .9rem;
+}
+
+.calendar-card.highlight {
+  border: 2px solid var(--accent-color, #00ff99);
+}
+
+.ad-placeholder {
+  margin-top: 3rem;
+  padding: 1rem;
+  text-align: center;
+  opacity: .6;
+  border: 1px dashed currentColor;
+}
