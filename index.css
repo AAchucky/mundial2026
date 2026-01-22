@@ -97,3 +97,15 @@ footer {background:var(--color-surface-light);padding:3rem 2rem 1rem;border-top:
 .navigation-wrapper,.navigation-container1,.navigation-container3,.navigation-container5,.footer-wrapper,.footer-container1,.footer-container3,.top-scorers-wrapper,.top-scorers-container1,.top-scorers-container3,.news-grid-wrapper,.news-grid-container1,.news-grid-container3,.news-grid-container5,.world-rankings-table-wrapper,.world-rankings-table-container1,.world-rankings-table-container3,.world-rankings-table-container5,.home-container2,.home-container3 {display:contents;}
 .navigation-container2,.navigation-container4,.footer-container2,.top-scorers-container2,.news-grid-container2,.news-grid-container4,.world-rankings-table-container2,.world-rankings-table-container4 {display:none;}
 .navigation-thq-navigation-brand-year-elm {color:var(--color-secondary);}
+.site-notice {
+  background: rgba(255, 193, 7, 0.15);
+  border-left: 4px solid #ffc107;
+  padding: 0.75rem 0;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.site-notice p {
+  margin: 0;
+  opacity: 0.9;
+}
