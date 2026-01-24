@@ -11,7 +11,7 @@
         --color-surface: #0A0E27;
         --color-on-surface: #E8EAED;
         --color-primary: #2874DE;
- 	--color-success: #00C853; /* Este es el verde exacto del final del degradado */
+ 	--color-success: 00C853; /* Este es el verde exacto del final del degradado */
 	--gradient-primary: linear-gradient(135deg, #2874DE 0%, #00C853 100%);      }
       body {
         background-color: var(--color-surface);
@@ -65,11 +65,13 @@
         padding-left: 20px;
         position: relative;
       }
+	/* Para las flechas de las listas */
       .legal-list li::before {
-        content: "•";
-        color: var(--color-success);
-        position: absolute;
-        left: 0;
+	  content: "→";
+	  color: var(--color-success); /* Cambiado de --color-accent a --color-success */
+	  position: absolute;
+	  left: 0;
+  	font-weight: bold;
       }
       .back-link {
         display: inline-block;
