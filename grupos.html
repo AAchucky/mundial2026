@@ -577,72 +577,7 @@
             </div>
           </div>
         </navigation-wrapper>
-  <!-- Hero Section -->
-  <section class="hero" id="inicio">
-    <img src="https://images.pexels.com/photos/34201725/pexels-photo-34201725.jpeg?auto=compress&cs=tinysrgb&w=1500" alt="Estadio del Mundial FIFA 2026 con aficionados celebrando" class="hero-bg">
-    <div class="hero-overlay"></div>
-    
-    <div class="container hero-content fade-in">
-      <h1>Mundial FIFA 2026</h1>
-      <p>El torneo más grande de la historia: 48 equipos, 104 partidos y 3 naciones anfitrionas (USA, México y Canadá). Prepárate para la gloria.</p>
-      
-      <div class="countdown" id="countdown">
-        <div class="countdown-item">
-          <span class="countdown-value" id="days">000</span>
-          <span class="countdown-label">DÃƒÂ­as</span>
-        </div>
-        <div class="countdown-item">
-          <span class="countdown-value" id="hours">00</span>
-          <span class="countdown-label">Horas</span>
-        </div>
-        <div class="countdown-item">
-          <span class="countdown-value" id="minutes">00</span>
-          <span class="countdown-label">Minutos</span>
-        </div>
-        <div class="countdown-item">
-          <span class="countdown-value" id="seconds">00</span>
-          <span class="countdown-label">Segundos</span>
-        </div>
-      </div>
-      
-      <div class="hero-actions">
-        <a href="#calendario" class="btn btn-primary">Ver Calendario Completo</a>
-        <a href="https://www.fifa.com/tickets" target="_blank" rel="nofollow noopener" class="btn btn-outline">Comprar Entradas FIFA</a>
-      </div>
-    </div>
-  </section>
-
-  <script>
-    // Countdown Timer Logic
-    const targetDate = new Date("June 11, 2026 00:00:00").getTime();
-
-    function updateCountdown() {
-      const now = new Date().getTime();
-      const distance = targetDate - now;
-
-      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      document.getElementById("days").innerText = days.toString().padStart(3, "0");
-      document.getElementById("hours").innerText = hours.toString().padStart(2, "0");
-      document.getElementById("minutes").innerText = minutes.toString().padStart(2, "0");
-      document.getElementById("seconds").innerText = seconds.toString().padStart(2, "0");
-    }
-
-    // Initial call and update every second
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-
-    // Parallax effect on scroll
-    window.addEventListener("scroll", () => {
-      const scrolled = window.pageYOffset;
-      const heroBg = document.querySelector(".hero-bg");
-      if (heroBg) {
-        heroBg.style.transform = `translateY(${scrolled * 0.3}px)`;
-      }
-    });
+ 
   </script>
 <section class="groups-mundial">
   <div class="stats-container">
@@ -997,19 +932,19 @@
             <div class="cta-countdown-info">
               <div class="cta-text-group">
                 <span class="cta-label">Cuenta Regresiva</span>
-                <h2 class="section-title">El sueÃƒÂ±o comienza pronto</h2>
+                <h2 class="section-title">El sueño comienza pronto</h2>
               </div>
               <div class="cta-timer-wrapper">
                 <div class="cta-timer-box">
                   <span id="cta-days">000</span>
-                  <small>DÃƒÂ­as</small>
+                  <small>Días</small>
                 </div>
               </div>
             </div>
             <div class="cta-actions-group">
               <a href="#calendario-afiliado">
                 <div class="btn btn-lg btn-accent">
-                  <span>Ã‚Â¡Asegura tu Calendario!</span>
+                  <span>¡Asegura tu Calendario!</span>
                 </div>
               </a>
               <div class="cta-ad-mini"><span>Publicidad</span></div>
@@ -1106,8 +1041,8 @@
                     </div>
                     <p class="footer-brand-description section-content">
                       Tu portal definitivo para la Copa Mundial de la FIFA 2026.
-                      Cobertura completa de los 104 partidos en USA, MÃƒÂ©xico y
-                      CanadÃƒÂ¡.
+                      Cobertura completa de los 104 partidos en USA, México y
+                      Canadá.
                     </p>
                     <div class="footer-social-links">
                       <a href="#">
@@ -1205,7 +1140,7 @@
                   </div>
                   <div class="footer-nav-column">
                     <h3 class="section-subtitle footer-column-title">
-                      NavegaciÃƒÂ³n
+                      Navegación
                     </h3>
                     <ul class="footer-link-list">
                       <li>
@@ -1244,11 +1179,11 @@
                   </div>
                   <div class="footer-info-column">
                     <h3 class="section-subtitle footer-column-title">
-                      InformaciÃƒÂ³n Oficial
+                      Información Oficial
                     </h3>
                     <p class="section-content footer-info-text">
                       Datos preliminares sujetos a cambios por la FIFA. Mundial 2026
-                      no tiene afiliaciÃƒÂ³n oficial con la organizaciÃƒÂ³n del
+                      no tiene afiliación oficial con la organización del
                       evento.
                     </p>
                     <div class="footer-adsense-placeholder">
@@ -1270,7 +1205,7 @@
                       </div>
                     </a>
                     <a href="terminos.html">
-                      <div class="footer-legal-link"><span>TÃƒÂ©rminos</span></div>
+                      <div class="footer-legal-link"><span>Términos</span></div>
                     </a>
                     <a href="cookies.html">
                       <div class="footer-legal-link"><span>Cookies</span></div>
