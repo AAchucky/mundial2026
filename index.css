@@ -119,3 +119,127 @@ body {
   /* Fuerza solo para banderas, sin Roboto */
   font-size: 1.5rem; /* Aumenta si es necesario para mejor render */
 }
+
+/* Reduce el espacio entre el ranking y el calendario */
+.calendar-mundial {
+    margin-top: -25px !important; /* Ajusta este número si quieres que suba más o menos */
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;    /* evita que empuje hacia abajo lo siguiente */
+}
+
+/* Estilo para el título morado */
+.title-purple {
+    color: #8c52ff !important; /* Morado eléctrico similar al de tu logo */
+    font-family: 'Anton', sans-serif; /* O la fuente que uses en tu logo */
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-top: 0 !important;
+    margin-bottom: 10 !important; /* Esto es vital */
+    padding-bottom: 10 !important;
+    line-height: 1.1; /* Reduce el espacio entre líneas si el título es muy grande */
+}
+
+/* Línea decorativa morada debajo del título */
+.purple-bar {
+    width: 40px;
+    height: 3px;
+    background-color: #8c52ff;
+    margin: 5px auto 15px !important; /* Solo 5px de separación con el texto */
+}
+
+.section-header-destacados {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    height: auto !important; /* Evita que tenga una altura fija */
+    min-height: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 3. Eliminamos posibles paddings o márgenes del contenedor de las tarjetas */
+.calendar-container {
+    margin-top: 15px !important; /* Ajuste fino para pegarlo a la barra */
+    padding-top: 0 !important;
+}
+
+/* 4. Por si acaso, quitamos el margen superior de la primera fila de eventos */
+.calendar-secondary {
+    margin-top: -10 !important;
+}
+
+
+/* Contenedor principal de las tablas */
+.calendario-grupos {
+    max-width: 1000px; /* Evita que las tablas sean infinitamente anchas */
+    margin: 60px auto !important; /* El "auto" es lo que centra todo el bloque */
+    margin-top: -45px !important;
+    padding: 20px;
+    color: white; /* Para que se lea bien sobre tu fondo oscuro */
+    clear: both; /* Rompe cualquier solapamiento anterior */
+    position: relative;
+}
+
+/* Centrar los títulos de los grupos */
+.titulo-grupos {
+    text-align: center;
+    color: #8c52ff; /* El morado de tu marca */
+    margin-bottom: 20px;
+    margin-top: 0px !important;
+    display: block !important;
+}
+
+.calendario-grupos h2 {
+    display: block !important;
+    visibility: visible !important;
+    color: #8c52ff !important;
+    font-size: 2rem !important;
+    font-weight: 800 !important;
+    text-align: center !important;
+    margin-top: 50px !important; /* Espacio extra para que se vea bien */
+    margin-bottom: 15px !important;
+    text-transform: uppercase;
+}
+
+/* Estilo para la cajita de "Equipos" */
+.info-equipos {
+    text-align: center;
+    background: rgba(140, 82, 255, 0.1);
+    border: 1px solid #8c52ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px !important; /* Espacio extra para que se vea bien */
+    max-width: 800px;
+}
+
+/* Hacer que la tabla ocupe el ancho y se vea bien */
+.calendario-grupos table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.calendario-grupos thead th {
+    padding: 12px;
+    text-align: center !important; /* Centra Fecha, Partido y Sede */
+    background-color: rgba(140, 82, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.calendario-grupos td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.jornada-header td {
+    background-color: rgba(140, 82, 255, 0.1) !important;
+    text-align: center !important;
+    font-weight: bold;
+    color: #8c52ff;
+}
