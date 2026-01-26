@@ -42,4 +42,64 @@ h1, h2, h3, .titulo-hero {
   transition: transform 0.2s;
 }
 
-                                   
+/* Afiliados  */
+.affiliate-placeholder {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.affiliate-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(40, 116, 222, 0.15);
+  border: 1px solid rgba(40, 116, 222, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--color-on-surface);
+  transition: all 0.3s ease;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.affiliate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(40,116,222,0.3);
+  border-color: var(--color-primary);
+}
+
+.affiliate-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.affiliate-content {
+  padding: 1.2rem;
+}
+
+.affiliate-content h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+.affiliate-content p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.affiliate-btn {
+  background: var(--gradient-primary);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.affiliate-btn:hover {
+  background: linear-gradient(135deg, #00C853 0%, #2874DE 100%);
+}                            
