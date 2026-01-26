@@ -3290,3 +3290,9 @@
     padding: var(--spacing-lg);
   }
 }
+
+.affiliate-image img {
+  width: 100%;
+  height: 120px;   /* ← aquí cambias el tamaño. Antes era 180px, baja a 140px o 120px */
+  object-fit: cover;
+}
