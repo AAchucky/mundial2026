@@ -2008,7 +2008,7 @@
                     // Eliminamos duplicados y tomamos las 3 mejores
                     const únicas = [...new Map(noticiasEncontradas.map(item => [item.title, item])).values()];
 
-                    únicas.slice(0, 3).forEach(item => {
+                    únicas.slice(0, 6).forEach(item => {
                       const fecha = new Date(item.pubDate).toLocaleDateString('es-ES', {
                         day: 'numeric', month: 'short', year: 'numeric'
                       });
