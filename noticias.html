@@ -277,6 +277,50 @@
   display: block;
 }
     }
+
+	  .videos-section {
+  padding: 80px 20px;
+  background: var(--color-surface-light);
+}
+
+.section-header {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 60px;
+}
+
+.section-description {
+  margin-top: 15px;
+  opacity: 0.85;
+  font-size: 1.1rem;
+}
+
+.video-card {
+  margin-bottom: 80px;
+}
+
+.video-card:last-child {
+  margin-bottom: 0;
+}
+
+.video-card h3 {
+  color: var(--color-primary);
+  margin-bottom: 15px;
+}
+
+.video-card p {
+  margin-bottom: 25px;
+  opacity: 0.85;
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 500px;
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+	  
   </style>
 
 
@@ -640,34 +684,47 @@
   </script>
 
 
-		  <section class="videos-section">
+<section class="videos-section">
   <div class="container">
 
     <div class="section-header">
       <h2 class="section-title">Vídeos Mundial Freaks 2026</h2>
+
       <p class="section-description">
-        Curiosidades salvajes, jugadores imposibles y países que NUNCA pensaste que llegarían al Mundial de futbol 2026 🌎⚽
-		Visita https://www.youtube.com/@MundialFreaks2026  
+        Curiosidades salvajes, jugadores imposibles y países que NUNCA pensaste que llegarían al Mundial de futbol 2026 🌎⚽ Visita <a href https://www.youtube.com/@MundialFreaks2026> </a>
       </p>
     </div>
 
+    <div class="video-card">
+      <h3>Países "invisibles" que participarán en el Mundial 2026</h3>
+
+      <p>
+        Algunas selecciones clasificadas apenas aparecen en los medios
+        internacionales, pero estarán presentes en el Mundial. Descubre su
+        historia, sus jugadores más importantes y por qué pueden sorprender.
+      </p>
 
       <iframe
-	  width="100%"
-	  height="500"
-	  src="https://www.youtube.com/embed/SeXLApGKn3U"
-	  title="Países "invisibles" que participarán en el mundial 2026"
-	  allowfullscreen>
-	</iframe>
+        src="https://www.youtube.com/embed/SeXLApGKn3U"
+        title="Países invisibles que participarán en el Mundial 2026"
+        allowfullscreen>
+      </iframe>
+    </div>
 
+    <div class="video-card">
+      <h3>Los 5 jugadores secretos que sorprenderán en 2026</h3>
+
+      <p>
+        Jóvenes talentos y futbolistas poco conocidos que podrían convertirse
+        en una de las grandes revelaciones del próximo Mundial.
+      </p>
 
       <iframe
-	  width="100%"
-	  height="500"
-	  src="https://www.youtube.com/embed/Sg3vsObcSwU"
-	  title="Los 5 JUGADORES SECRETOS que serán SORPRESA el Mundial 2026 😱"
-	  allowfullscreen>
-	</iframe>
+        src="https://www.youtube.com/embed/Sg3vsObcSwU"
+        title="Jugadores sorpresa Mundial 2026"
+        allowfullscreen>
+      </iframe>
+    </div>
 
   </div>
 </section>
