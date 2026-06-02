@@ -320,7 +320,17 @@
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,.3);
 }
-	  
+
+.video-wrapper {
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 360px;
+  border-radius: 12px;
+}
   </style>
 
 
@@ -691,18 +701,21 @@
       <h2 class="section-title">Vídeos Mundial Freaks 2026</h2>
 
       <p class="section-description">
-        Curiosidades salvajes, jugadores imposibles y países que NUNCA pensaste que llegarían al Mundial de futbol 2026 🌎⚽ Visita <a href https://www.youtube.com/@MundialFreaks2026> </a>
+        Curiosidades salvajes, jugadores imposibles y países que NUNCA pensaste que llegarían al Mundial de fútbol 2026 🌎⚽
+        Visita 
+        <a href="https://www.youtube.com/@MundialFreaks2026" target="_blank" rel="noopener noreferrer">
+          @MundialFreaks2026
+        </a>
       </p>
     </div>
 
     <div class="video-card">
-      <h3>Países "invisibles" que participarán en el Mundial 2026</h3>
-
-      <p>
-        Algunas selecciones clasificadas apenas aparecen en los medios
-        internacionales, pero estarán presentes en el Mundial. Descubre su
-        historia, sus jugadores más importantes y por qué pueden sorprender.
-      </p>
+      <div class="video-info">
+        <h3>Países "invisibles" que participarán en el Mundial 2026</h3>
+        <p>
+          Algunas selecciones clasificadas apenas aparecen en los medios internacionales, pero estarán presentes en el Mundial. Descubre su historia, sus jugadores más importantes y por qué pueden sorprender.
+        </p>
+      </div>
 
       <iframe
         src="https://www.youtube.com/embed/SeXLApGKn3U"
@@ -712,12 +725,12 @@
     </div>
 
     <div class="video-card">
-      <h3>Los 5 jugadores secretos que sorprenderán en 2026</h3>
-
-      <p>
-        Jóvenes talentos y futbolistas poco conocidos que podrían convertirse
-        en una de las grandes revelaciones del próximo Mundial.
-      </p>
+      <div class="video-info">
+        <h3>Los 5 jugadores secretos que sorprenderán en 2026</h3>
+        <p>
+          Jóvenes talentos y futbolistas poco conocidos que podrían convertirse en una de las grandes revelaciones del próximo Mundial.
+        </p>
+      </div>
 
       <iframe
         src="https://www.youtube.com/embed/Sg3vsObcSwU"
@@ -728,6 +741,8 @@
 
   </div>
 </section>
+
+		  
                       <news-grid-wrapper class="news-grid-wrapper">
               
                     <script>
